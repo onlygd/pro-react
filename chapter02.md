@@ -13,12 +13,9 @@ Chapter02 : DOM추싱회의 내부
   
 * JSX 특이점  
   * 단일 루트 노드
-  <pre><code>
- return( 
-  <hl>HelloWorld</hl>
- )
-  </code></pre>
-  
+      return( 
+       <hl>HelloWorld</hl>
+      )
   * 조건절 (If-Else 사용 불가) -> 삼항식을 이용하거나, 별도 스크립트로 빼서 사용
   * 공백 -> {" "} 사용
   * 주석 -> { /* comments */ } 사용
